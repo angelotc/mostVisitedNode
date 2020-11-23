@@ -11,7 +11,7 @@ def mostVisitedNode(N, L):
     base_list = list(range(1,N+1))
     # N = 10 ---> base_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     path = []
-    counts = [0]*10
+    counts = [0]*N
     
     for i in range(len(L)-1):
         start = L[i]
